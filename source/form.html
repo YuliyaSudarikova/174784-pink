@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+  <!-- <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p> -->
+
+    <header class="page-header">
+      <div class="top-menu">
+        <a class="top-menu__logo" href="#">
+          <img class="header-nav__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Взгляните на жизнь ярче" />
+        </a>
+        <nav class="main-nav">
+          <div class="content-wrapper">
+            <button class="main-nav__toggle" type="button"></button>
+            <ul class="main-nav__list site-list">
+              <li class="site-list__list-item site-list__list-item--active">
+                <a class="site-list__item-link" href="#">Главная</a>
+              </li>
+              <li class="site-list__list-item site-list__list-item--active">
+                <a class="site-list__item-link" href="#">Фотографии</a>
+              </li>
+              <li class="site-list__list-item site-list__list-item--active">
+                <a class="site-list__item-link" href="#">Конкурс</a>
+              </li>
+              <li class="site-list__list-item site-list__list-item--active">
+                <a class="site-list__item-link" href="#">HTML Academy</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="presentation">
+        <div class="presentation__img"></div>
+        <div class="app presentation__download">
+          <h1 class="app__caption page-caption">Конкурс на самое безбашенное путешествие с Пинк</h1>
+        </div>
+      </div>
+    </header>
+
+    <main class="information">
+      <div class="content-wrapper">
+        <div class="information__competition">
+          <div class="information__competition-item">
+            <p class="information__competition-text">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
+          </div>
+
+          <form class="form" method="post" action="https://echo.htmlacademy.ru">
+            <div class="form__item">
+              <div class="form__field form__field-data">
+                <label for="first-name" class="form__field-name">Фамилия</label>
+                <input id="frst-name" class="field-input form__field-input" type="text" name="type"/>
+
+                <label for="name" class="form__field-name">Имя</label>
+                <input id="name" class="field-input form__field-input" type="text" name="type"/>
+
+                <label for="last-name" class="form__field-name">Отчество</label>
+                <input id="last-name" class="field-input form__field-input" type="text" name="type"/>
+              </div>
+
+              <div class="form__field form__field-os">
+                <fieldset class="group-set form__group-radio">
+                  <legend class="group-set__caption">С каким приложением путешествовали?</legend>
+
+                  <div class="group-set__item">
+                    <input id="ios" class="group-set__radio group-set__radio--active" type="radio" name="os" checked/>
+                    <label for="ios" class="group-set__field-name">Pink на iOS</label>
+                  </div>
+
+                  <div class="group-set__item">
+                    <input id="androif" class="group-set__radio" type="radio" name="os"/>
+                    <label for="android" class="group-set__field-name">Pink на Androud</label>
+                  </div>
+
+                  <div class="group-set__item">
+                    <input id="windows" class="group-set__radio" type="radio" name="os"/>
+                    <label for="windows" class="group-set__field-name">Windows Phone</label>
+                  </div>
+                </fieldset>
+              </div>
+
+              <div class="form__field form__field-contacts">
+                <fieldset class="group-set">
+                  <legend class="group-set__caption">Контактная информация</legend>
+
+                  <div class="group-set__input">
+                    <input id="phone" class="field-input field-input--phone" type="phone" placeholder="Номер, пожалуйста"/>
+                    <label for="phone" class="form__field-name">Номер телефона</label>
+                  </div>
+
+                  <div class="group-set__input">
+                    <input id="email" class="field-input field-input--phone" type="email" placeholder="Введите почту*"/>
+                    <label for="email" class="group-set__field-name">Адрес почты</label>
+                  </div>
+
+                </fieldset>
+              </div>
+
+              <div class="form__field form__field-progress">
+                <fieldset class="group-set">
+                  <legend class="group-set__caption">Ваши безбашенные достижения в путешествии</legend>
+
+                  <div class="group-set__item">
+                    <input id="selfie" class="field-checkbox field-checkbox--active group-set__field" type="checkbox" checked/>
+                    <label for="selfie" class="group-set__field-name">Сделала селфи с акулой</label>
+                  </div>
+
+                  <div class="group-set__item">
+                    <input id="sunburned" class="field-checkbox field-checkbox--active group-set__field" type="checkbox" checked/>
+                    <label for="sunburned" class="group-set__field-name">Обгорел на пляже</label>
+                  </div>
+
+                  <div class="group-set__item">
+                    <input id="norris" class="field-checkbox group-set__field" type="checkbox"/>
+                    <label for="norris" class="group-set__field-name">Видел Чака Норриса</label>
+                  </div>
+
+                  <div class="group-set__item">
+                    <input id="souvenirs" class="field-checkbox group-set__field" type="checkbox"/>
+                    <label for="souvenirs" class="group-set__field-name">Накупил сувениров</label>
+                  </div>
+
+                  <div class="group-set__item">
+                    <input id="tower" class="field-checkbox field-checkbox--active group-set__field" type="checkbox" checked/>
+                    <label for="tower" class="group-set__field-name">Удержал башню</label>
+                  </div>
+
+                  <div class="group-set__item">
+                    <input id="hotel" class="field-checkbox group-set__field" type="checkbox"/>
+                    <label for="hotel" class="group-set__field-name">Разгромил отель</label>
+                  </div>
+
+                </fieldset>
+              </div>
+
+              <div class="form__field form__field-progress">
+                <fieldset class="group-set">
+                  <legend class="group-set__caption">Опишите свои эмоции</legend>
+                  <div class="group-set__item">
+                    <input class="field-checkbox group-set__field" type="text" rows="5" placeholder="Можно прям в красках, не стесняясь в выражениях"/>
+                  </div>
+                </fieldset>
+              </div>
+
+              <div class="form-btn">
+                <button class="button form-btn__send button--form" type="submit">Отправить форму</button>
+                <div class="form-btn__required-fields">
+                  <p class="">
+                    <sup>*</sup> – Обязательные поля
+                  </p>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+      <div class="content-wrapper">
+        <img class="page-footer__logo" src="#" width="86" height="35" alt="Взгляните на жизнь ярче" />
+        <div class="page-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--twitter" href="#"></a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--fb" href="#"></a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="#"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <p class="copyright__text">Разработано</p>
+          <a class="copyright__link" href="#">
+            <img class="copyright__logo" src="img/htmlacademy.svg" width="150" height="100" alt="HTML Academy" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
