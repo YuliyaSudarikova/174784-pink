@@ -1,7 +1,3 @@
-.tbl-price {
-
-}
-
 .tbl-price__header {
   padding: 10px;
   background-color: $body-color;
@@ -33,15 +29,15 @@
   width: 31px;
   height: 21px;
 
-    &--yes {
-      background: url(/img/icon-yes.svg) no-repeat center;
-      fill: #3dc644;
-    }
+  &--yes {
+    background: url("/img/icon-yes.svg") no-repeat center;
+    fill: #3dc644;
+  }
 
-    &--no {
-      width: 27px;
-      height: 27px;
-      background: url(/img/icon-no.svg) no-repeat center;
-      fill: #f25b26;
-    }
+  &--no {
+    width: 27px;
+    height: 27px;
+    background: url("/img/icon-no.svg") no-repeat center;
+    fill: #f25b26;
+  }
 }

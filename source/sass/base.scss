@@ -48,6 +48,28 @@ textarea::placeholder {
   padding: 18px;
   border: 2px solid $white;
   border-radius: 35px;
+
+  &--publish {
+    width: 100%;
+    padding: 20px 91px;
+    background-color: transparent;
+    border: 2px solid $red;
+    line-height: 18px;
+    font-weight: 600;
+    color: $red;
+  }
+
+  &--canceled {
+    width: 100%;
+    padding: 20px 91px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid $body-color;
+    line-height: 18px;
+    font-weight: 600;
+    color: $body-color;
+    opacity: 0.1;
+  }
 }
 
 .button {
@@ -58,7 +80,7 @@ textarea::placeholder {
   text-transform: uppercase;
   color: $white;
 
-    &--form {
-      background-color: $button-form;
-    }
+  &--form {
+    background-color: $button-form;
+  }
 }

@@ -1,7 +1,6 @@
 @import "normalize.scss";
 @import "variables/variables.scss";
 @import "base.scss";
-
 @import "blocks/page-header/page-header.scss";
 @import "blocks/page-header/top-menu.scss";
 @import "blocks/page-header/main-nav.scss";
@@ -9,7 +8,6 @@
 @import "blocks/page-header/presentation.scss";
 @import "blocks/page-header/app.scss";
 @import "blocks/page-header/device.scss";
-
 @import "blocks/information.scss";
 @import "blocks/advantage-list.scss";
 @import "blocks/advantage-item.scss";
@@ -18,13 +16,13 @@
 @import "blocks/price.scss";
 @import "blocks/tbl-price.scss";
 @import "blocks/contacts.scss";
-
 @import "blocks/page-footer/page-footer.scss";
 @import "blocks/page-footer/social.scss";
 @import "blocks/page-footer/copyright.scss";
-
 @import "blocks/presentation.scss";
-
 @import "blocks/form/form.scss";
 @import "blocks/form/group-set.scss";
 @import "blocks/form/form-btn.scss";
+@import "blocks/photo-card/photo-card.scss";
+@import "blocks/photo-card/like.scss";
+@import "blocks/create-photo/create-photo.scss";
