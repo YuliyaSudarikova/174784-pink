@@ -1,0 +1,47 @@
+.tbl-price {
+
+}
+
+.tbl-price__header {
+  padding: 10px;
+  background-color: $body-color;
+  text-transform: uppercase;
+  color: $white;
+}
+
+.tbl-price__name {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.tbl-price__cost {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 100;
+}
+
+.tbl-price__features-name {
+  padding: 13px 23px;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.tbl-price__features-value {
+  width: 31px;
+  height: 21px;
+
+    &--yes {
+      background: url(/img/icon-yes.svg) no-repeat center;
+      fill: #3dc644;
+    }
+
+    &--no {
+      width: 27px;
+      height: 27px;
+      background: url(/img/icon-no.svg) no-repeat center;
+      fill: #f25b26;
+    }
+}

@@ -1,0 +1,26 @@
+.information {
+  position: relative;
+  background-color: $white;
+}
+
+.information__suggestion {
+  position: relative;
+  text-align: center;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 320px;
+      border: 32px solid transparent;
+      border-right: 320px solid $bg-grey;
+      border-bottom: 0px solid $bg-grey;
+    }
+}
+
+.information__caption {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 100;
+}

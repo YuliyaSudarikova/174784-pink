@@ -1,0 +1,53 @@
+body {
+  margin: 0 auto;
+  min-width: 320px;
+  font-family: "OpenSans", "Tahoma", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: $body-color;
+}
+
+.content-wrapper {
+  width: auto;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-caption {
+  font-size: 40px;
+  color: $text-color-on-black;
+  font-weight: 100;
+}
+
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 300;
+
+}
+
+.btn {
+  color: $white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  padding: 18px;
+  border: 2px solid $white;
+  border-radius: 35px;
+    &--download {
+
+    }
+}
+
+.app__btn {
+
+}

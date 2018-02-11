@@ -1,0 +1,37 @@
+.reviews {
+  position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 320px;
+      border: 32px solid transparent;
+      border-right: 320px solid $bg-grey;
+      border-bottom: 0px solid $bg-grey;
+    }
+}
+
+.reviews__author-name {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.reviews__author-info {
+  display: none;
+}
+
+.reviews__text {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.reviews__toggles {
+  text-align: center;
+  margin-top: 40px;
+}
