@@ -1,0 +1,12 @@
+.form__field-name {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: $red;
+}
+
+.form__field-os,
+.form__field-progress {
+  background-color: $bg-grey;
+}

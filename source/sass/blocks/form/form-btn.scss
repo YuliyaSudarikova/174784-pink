@@ -1,0 +1,15 @@
+.form-btn__required {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: $body-color;
+
+    sup {
+      color: $red;
+    }
+}
+
+.form-btn__send {
+  margin-top: 52px;
+}

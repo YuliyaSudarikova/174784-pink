@@ -1,0 +1,19 @@
+.group-set {
+  margin-top: 42px;
+  text-align: center;
+}
+
+.group-set__caption {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: $red;
+}
+
+.group-set__field-name {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $body-color;
+}

@@ -9,23 +9,24 @@
   <body>
   <!-- <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p> -->
 
-    <header class="page-header">
-      <div class="top-menu">
+  <header class="page-header">
+    <div class="top-menu">
+      <div class="content-wrapper">
         <a class="top-menu__logo" href="#">
-          <img class="header-nav__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Взгляните на жизнь ярче" />
+          <img class="header-nav__logo-image" src="img/logo-pink-white-mobile.svg" width="86" height="35" alt="Взгляните на жизнь ярче" />
         </a>
         <nav class="main-nav">
           <div class="content-wrapper">
             <button class="main-nav__toggle" type="button"></button>
             <ul class="main-nav__list site-list">
               <li class="site-list__list-item site-list__list-item--active">
-                <a class="site-list__item-link" href="#">Главная</a>
+                <a class="site-list__item-link" href="index.html">Главная</a>
               </li>
               <li class="site-list__list-item site-list__list-item--active">
-                <a class="site-list__item-link" href="#">Фотографии</a>
+                <a class="site-list__item-link" href="photo.html">Фотографии</a>
               </li>
               <li class="site-list__list-item site-list__list-item--active">
-                <a class="site-list__item-link" href="#">Конкурс</a>
+                <a class="site-list__item-link" href="form.html">Конкурс</a>
               </li>
               <li class="site-list__list-item site-list__list-item--active">
                 <a class="site-list__item-link" href="#">HTML Academy</a>
@@ -34,17 +35,18 @@
           </div>
         </nav>
       </div>
-      <div class="presentation">
-        <div class="presentation__img"></div>
-        <div class="app presentation__download">
-          <h1 class="app__caption page-caption">Фотографии пользователей</h1>
-        </div>
+    </div>
+
+    <div class="presentation">
+      <div class="presentation__download">
+        <h1 class="presentation__caption">Фотографии пользователей</h1>
       </div>
-    </header>
+    </div>
+  </header>
 
     <main class="information">
-      <div class="content-wrapper">
-        <div class="information__competition">
+      <div class="information__competition">
+        <div class="content-wrapper">
           <div class="information__competition-item">
             <p class="information__competition-text">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
           </div>
@@ -52,93 +54,109 @@
 
         <div class="photos information__photos">
           <div class="photo-card photos__item">
-            <img class="photo-card__image" src="http://placehold.it/150x100" width="150" height="auto" alt="photo1"/>
-            <p class="photo-card__author">Анна<span class="photo-card__time">(5 минут назад)</span></p>
-            <p class="photo-card__reviews">
-              Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!
-            </p>
-            <div class="like photo-card__like">
-              <svg class="svg-icon svg-icon--like"></svg>
-              <p class="like__text">Нравится: 215</p>
+            <img class="photo-card__image" src="img/panorama-mobile@1x.jpg" width="320" height="auto" alt="photo1"/>
+            <div class="content-wrapper">
+              <p class="photo-card__author">Анна<span class="photo-card__time">(5 минут назад)</span></p>
+              <p class="photo-card__reviews">
+                Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!
+              </p>
+              <div class="like photo-card__like">
+                <svg class="svg-icon svg-icon--like"></svg>
+                <p class="like__text">Нравится: 215</p>
+              </div>
             </div>
           </div>
 
           <div class="photo-card photos__item">
-            <img class="photo-card__image" src="http://placehold.it/150x100" width="150" height="auto" alt="photo2"/>
-            <p class="photo-card__author">Левон<span class="photo-card__time">(5 часов назад)</span></p>
-            <p class="photo-card__reviews">
-              Вчера он на луну летал, сегодня в руки к нам попал.
-            </p>
-            <div class="like photo-card__like">
-              <svg class="svg-icon svg-icon--like"></svg>
-              <p class="like__text">Нравится: 356</p>
+            <div class="content-wrapper">
+              <img class="photo-card__image" src="http://placehold.it/150x100" width="320" height="auto" alt="photo2"/>
+              <p class="photo-card__author">Левон<span class="photo-card__time">(5 часов назад)</span></p>
+              <p class="photo-card__reviews">
+                Вчера он на луну летал, сегодня в руки к нам попал.
+              </p>
+              <div class="like photo-card__like">
+                <svg class="svg-icon svg-icon--like"></svg>
+                <p class="like__text">Нравится: 356</p>
+              </div>
             </div>
           </div>
 
           <div class="photo-card photos__item">
-            <img class="photo-card__image" src="http://placehold.it/150x100" width="150" height="auto" alt="photo3"/>
-            <p class="photo-card__author">Антон<span class="photo-card__time">(12 часов назад)</span></p>
-            <p class="photo-card__reviews">
-              Соседи будут рады!
-            </p>
-            <div class="like photo-card__like">
-              <svg class="svg-icon svg-icon--like"></svg>
-              <p class="like__text">Нравится: 666</p>
+            <div class="content-wrapper">
+              <img class="photo-card__image" src="http://placehold.it/150x100" width="320" height="auto" alt="photo3"/>
+              <p class="photo-card__author">Антон<span class="photo-card__time">(12 часов назад)</span></p>
+              <p class="photo-card__reviews">
+                Соседи будут рады!
+              </p>
+              <div class="like photo-card__like">
+                <svg class="svg-icon svg-icon--like"></svg>
+                <p class="like__text">Нравится: 666</p>
+              </div>
             </div>
           </div>
 
           <div class="photo-card photos__item">
-            <img class="photo-card__image" src="http://placehold.it/150x100" width="150" height="auto" alt="photo4"/>
-            <p class="photo-card__author">Борис<span class="photo-card__time">(20 часов назад)</span></p>
-            <p class="photo-card__reviews">
-              Здесь могла быть ваша цитата о высоком и вечном.
-            </p>
-            <div class="like photo-card__like">
-              <svg class="svg-icon svg-icon--like"></svg>
-              <p class="like__text">Нравится: 215</p>
+            <div class="content-wrapper">
+              <img class="photo-card__image" src="http://placehold.it/150x100" width="320" height="auto" alt="photo4"/>
+              <p class="photo-card__author">Борис<span class="photo-card__time">(20 часов назад)</span></p>
+              <p class="photo-card__reviews">
+                Здесь могла быть ваша цитата о высоком и вечном.
+              </p>
+              <div class="like photo-card__like">
+                <svg class="svg-icon svg-icon--like"></svg>
+                <p class="like__text">Нравится: 215</p>
+              </div>
             </div>
           </div>
 
           <div class="photo-card photos__item">
-            <img class="photo-card__image" src="http://placehold.it/150x100" width="150" height="auto" alt="photo5"/>
-            <p class="photo-card__author">Сергей<span class="photo-card__time">(25 часов назад)</span></p>
-            <p class="photo-card__reviews">
-              Самая кубанская в мире!
-            </p>
-            <div class="like photo-card__like">
-              <svg class="svg-icon svg-icon--like"></svg>
-              <p class="like__text">Нравится: 4</p>
+            <div class="content-wrapper">
+              <img class="photo-card__image" src="http://placehold.it/150x100" width="320" height="auto" alt="photo5"/>
+              <p class="photo-card__author">Сергей<span class="photo-card__time">(25 часов назад)</span></p>
+              <p class="photo-card__reviews">
+                Самая кубанская в мире!
+              </p>
+              <div class="like photo-card__like">
+                <svg class="svg-icon svg-icon--like"></svg>
+                <p class="like__text">Нравится: 4</p>
+              </div>
             </div>
           </div>
 
           <div class="photo-card photos__item">
-            <img class="photo-card__image" src="http://placehold.it/150x100" width="150" height="auto" alt="photo6"/>
-            <p class="photo-card__author">Максим<span class="photo-card__time">(40 часов назад)</span></p>
-            <p class="photo-card__reviews">
-              Где снег то?
-            </p>
-            <div class="like photo-card__like">
-              <svg class="svg-icon svg-icon--like"></svg>
-              <p class="like__text">Нравится: 150</p>
+            <div class="content-wrapper">
+              <img class="photo-card__image" src="http://placehold.it/150x100" width="320" height="auto" alt="photo6"/>
+              <p class="photo-card__author">Максим<span class="photo-card__time">(40 часов назад)</span></p>
+              <p class="photo-card__reviews">
+                Где снег то?
+              </p>
+              <div class="like photo-card__like">
+                <svg class="svg-icon svg-icon--like"></svg>
+                <p class="like__text">Нравится: 150</p>
+              </div>
             </div>
           </div>
 
           <div class="photo-card photos__item">
-            <img class="photo-card__image" src="http://placehold.it/150x100" width="150" height="auto" alt="photo7"/>
-            <p class="photo-card__author">Надежда<span class="photo-card__time">(45 часов назад)</span></p>
-            <p class="photo-card__reviews">
-              Всем GM и взаимные лайки!
-            </p>
-            <div class="like photo-card__like">
-              <svg class="svg-icon svg-icon--like"></svg>
-              <p class="like__text">Нравится: 2560</p>
+            <div class="content-wrapper">
+              <img class="photo-card__image" src="http://placehold.it/150x100" width="320" height="auto" alt="photo7"/>
+              <p class="photo-card__author">Надежда<span class="photo-card__time">(45 часов назад)</span></p>
+              <p class="photo-card__reviews">
+                Всем GM и взаимные лайки!
+              </p>
+              <div class="like photo-card__like">
+                <svg class="svg-icon svg-icon--like"></svg>
+                <p class="like__text">Нравится: 2560</p>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="information__block">
-          <div class="wording">
-            <p class="wording__text">Затмите их всех! <br />Выкладывайте все, что накопилось в телефоне!</p>
+          <div class="content-wrapper">
+            <div class="wording">
+              <p class="wording__text">Затмите их всех! <br />Выкладывайте все, что накопилось в телефоне!</p>
+            </div>
           </div>
         </div>
 
