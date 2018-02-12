@@ -1,0 +1,27 @@
+.photo-card {
+  margin-top: 20px;
+}
+
+.photo-card__text {
+  padding: 25px 17px;
+  background-color: $bg-grey;
+}
+
+.photo-card__author {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.photo-card__time {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.photo-card__reviews {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}

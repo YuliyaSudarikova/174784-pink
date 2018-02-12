@@ -1,0 +1,19 @@
+.presentation {
+  display: flex;
+  flex-direction: column;
+  color: $text-color-on-black;
+}
+
+.presentation__img {
+  order: -2;
+  width: 80%;
+  height: 286px;
+  background: url("/img/iphone-hand-mobile@1x.png") no-repeat center;
+}
+
+.presentation__touch {
+  color: $text-color-on-black;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+}

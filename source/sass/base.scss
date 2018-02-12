@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 300;
+  src:
+    local("OpenSans Light"),
+    local("OpenSans-Light"),
+    url("../fonts/opensanslight.woff2") format("woff2"),
+    url("../fonts/opensanslight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("OpenSans Regular"),
+    local("OpenSans-Regular"),
+    url("../fonts/opensans.woff2") format("woff2"),
+    url("../fonts/opensans.woff") format("woff");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local("OpenSans Bold"),
+    local("OpenSans-Bold"),
+    url("../fonts/opensansbold.woff2") format("woff2"),
+    url("../fonts/opensansbold.woff") format("woff");
+}
+
+body {
+  margin: 0 auto;
+  min-width: 320px;
+  font-family: "OpenSans", "Tahoma", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: $body-color;
+}
+
+.content-wrapper {
+  width: auto;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-caption {
+  font-size: 40px;
+  color: $text-color-on-black;
+  font-weight: 300;
+}
+
+.field-input {
+  border: 2px solid $bg-grey;
+  padding: 22px;
+  box-sizing: border-box;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  color: $body-color;
+}
+
+.btn {
+  color: $white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  padding: 18px;
+  border: 2px solid $white;
+  border-radius: 35px;
+
+  &--publish {
+    width: 100%;
+    padding: 20px 91px;
+    background-color: transparent;
+    border: 2px solid $red;
+    line-height: 18px;
+    font-weight: 600;
+    color: $red;
+  }
+
+  &--canceled {
+    width: 100%;
+    padding: 20px 91px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid $body-color;
+    line-height: 18px;
+    font-weight: 600;
+    color: $body-color;
+    opacity: 0.1;
+  }
+}
+
+.button {
+  padding: 22px 48px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $white;
+
+  &--form {
+    background-color: $button-form;
+  }
+}
