@@ -10,14 +10,14 @@
   <body>
     <!-- <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p> -->
     <header class="page-header">
-      <div class="top-menu">
-        <div class="content-wrapper">
+      <div class="content-wrapper">
+        <div class="top-menu">
           <a class="top-menu__logo" href="#">
             <img class="header-nav__logo-image" src="img/logo-pink-white-mobile.svg" width="86" height="35" alt="Взгляните на жизнь ярче" />
           </a>
           <nav class="main-nav">
             <div class="content-wrapper">
-              <button class="main-nav__toggle" type="button"></button>
+              <button class="main-nav__toggle main-nav--closed" type="button"><span class="visually-hidden">Открыть меню</span></button>
               <ul class="main-nav__list site-list">
                 <li class="site-list__list-item site-list__list-item--active">
                   <a class="site-list__item-link" href="#">Главная</a>
@@ -37,10 +37,11 @@
         </div>
       </div>
 
+
       <div class="presentation">
         <div class="presentation__img"></div>
-        <div class="app presentation__download">
-          <div class="content-wrapper">
+
+          <div class="app presentation__download">
             <h1 class="app__caption page-caption">Взгляните на жизнь иначе!</h1>
             <a class="btn app__btn btn--download"href="#">Скачать приложение</a>
 

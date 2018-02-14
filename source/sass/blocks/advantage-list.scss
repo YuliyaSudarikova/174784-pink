@@ -1,8 +1,30 @@
 .advantage-list {
+  padding: 54px 0 0 0;
   position: relative;
   background-color: $bg-grey;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -33px;
+    right: 0;
+    width: 100vh;
+    border: 32px solid transparent;
+    border-right: 100vh solid $bg-grey;
+    border-bottom: 1px solid $bg-grey;
+  }
 }
 
 .advantage-list__item {
   margin-bottom: 40px;
+}
+
+.advantage-item__name {
+  margin-bottom: 24px;
+}
+
+.advantage-item__text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
 }

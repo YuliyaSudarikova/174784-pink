@@ -5,21 +5,14 @@
 
 .information__suggestion {
   position: relative;
+  padding: 46px 0;
   text-align: center;
-
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 320px;
-    border: 32px solid transparent;
-    border-right: 320px solid $bg-grey;
-    border-bottom: 1px solid $bg-grey;
-  }
 }
 
 .information__caption {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 46px;
   font-size: 24px;
   line-height: 29px;
   font-weight: 300;

@@ -1,3 +1,25 @@
 .top-menu {
+  position: relative;
   background-color: $top-menu;
+  padding: 21px 0;
+
+  @media (min-width: 768px) {
+    padding: 43px 0;
+  }
+
+  @media (min-width: 1200px) {
+    display: flex;
+  }
+}
+
+.top-menu__logo {
+  height: 22px;
+
+  @media (min-width: 768px) {
+    height: 24px;
+  }
+
+  @media (min-width: 1200px) {
+    height: 23px;
+  }
 }

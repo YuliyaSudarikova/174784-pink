@@ -1,5 +1,18 @@
 .page-header {
+  position: relative;
   font-size: 18px;
   line-height: 24px;
-  background: #2a3a4a url("/img/bg-back-mobile@1x.jpg") no-repeat center;
+  background: #2a3a4a url("/img/bg-back-mobile@1x.jpg") no-repeat 50% 0;
+  background-size: 320px auto;
+  min-height: 66px;
+
+  @media (min-width: 768px) {
+    background-size: 768px auto;
+    min-height: 729px;
+  }
+
+  @media (min-width: 1200px) {
+    background-size: 1200px auto;
+    min-height: 462px;
+  }
 }

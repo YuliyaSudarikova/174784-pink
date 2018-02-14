@@ -1,9 +1,31 @@
 .site-list {
-  list-style: none;
+  font-weight: 600;
+  text-align: center;
+
+  @media (min-width: 1200px) {
+    display: flex;
+    font-weight: 400;
+  }
 }
 
 .site-list__item-link {
+  display: block;
+  padding: 23px 15px;
+
+  font-size: 18px;
+  line-height: 32px;
   color: $text-color-on-black;
   text-decoration: none;
   text-transform: uppercase;
+
+  background-color: $body-color;
+  border-top: 1px solid #485461;
+  border-bottom: 1px solid $black;
+
+  @media (min-width: 1200px) {
+    line-height: 18px;
+    background-color: inherit;
+    border: none;
+  }
+
 }

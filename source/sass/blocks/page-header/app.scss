@@ -1,12 +1,28 @@
 .app {
   background-color: $header-color;
+
+  @media (min-width: 768px) {
+    background-color: transparent;
+  }
+
+  @media (min-width: 1200px) {
+
+  }
 }
 
 .app__caption {
   display: none;
-  font-size: 40px;
-  font-weight: 300;
-  line-height: auto;
+
+  @media (min-width: 768px) {
+    display: block;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: auto;
+  }
+
+  @media (min-width: 1200px) {
+
+  }
 }
 
 .app__btn {
